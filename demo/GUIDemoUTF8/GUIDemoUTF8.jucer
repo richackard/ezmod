@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="W2U8wi" name="GUIDemoUTF8" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.GUIDemoUTF8" includeBinaryInAppConfig="1"
+              cppLanguageStandard="11" jucerVersion="5.1.1">
+  <MAINGROUP id="CspU6D" name="GUIDemoUTF8">
+    <GROUP id="{29074D4F-69B2-E3D5-E3BB-670465F79DC3}" name="Source">
+      <FILE id="PZcqFJ" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="woknM7" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="v2dhoc" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="GUIDemoUTF8"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="GUIDemoUTF8"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../czy/juce_5_1_1/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../czy/juce_5_1_1/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../czy/juce_5_1_1/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../czy/juce_5_1_1/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../czy/juce_5_1_1/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../czy/juce_5_1_1/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../czy/juce_5_1_1/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../czy/juce_5_1_1/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="m_ez_gui" path="../../ezmod"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="m_ez_gui" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
